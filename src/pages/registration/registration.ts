@@ -24,6 +24,7 @@ export class RegistrationPage {
   }
 
   navigateToProfile = () => {
+    
     this.navCtrl.push(ProfilePage)
   }
 

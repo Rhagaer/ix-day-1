@@ -9,7 +9,11 @@ import { HomePage } from '../home/home';
  * Ionic pages and navigation.
  */
 
-@IonicPage()
+@IonicPage({
+  name: 'profile',
+  segment: '/profile'
+}
+)
 @Component({
   selector: 'page-profile',
   templateUrl: 'profile.html',
