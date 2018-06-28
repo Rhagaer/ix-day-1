@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { LoginPage } from '../login/login';
 import { RegistrationPage } from '../registration/registration';
+import { PayPage } from '../pay/pay';
 
 @Component({
   selector: 'page-home',
@@ -22,6 +23,9 @@ export class HomePage {
 
   navigateToRegister = () => {
     this.navCtrl.push(RegistrationPage);
+  }
+  navigateToPay = () => {
+    this.navCtrl.push(PayPage)
   }
 
 }
